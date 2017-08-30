@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="242.25" y="0.0">Registrant</node>
+    <node x="132.07142857142856" y="950.0">Admin</node>
+    <node x="152.64285714285714" y="736.0">Conference</node>
+    <node x="0.0" y="236.0">Session</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Session" target="Registrant">
+      <point x="120.75" y="-225.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="Admin" target="Registrant">
+      <point x="140.625" y="-159.0" />
+      <point x="460.19642857142856" y="925.0" />
+      <point x="494.25" y="925.0" />
+      <point x="494.25" y="211.0" />
+      <point x="442.25" y="211.0" />
+      <point x="80.0" y="93.0" />
+    </edge>
+    <edge source="Admin" target="Conference">
+      <point x="-46.875" y="-159.0" />
+      <point x="272.69642857142856" y="925.0" />
+      <point x="233.39285714285714" y="925.0" />
+      <point x="-80.75" y="82.0" />
+    </edge>
+    <edge source="Conference" target="Session">
+      <point x="80.75" y="-82.0" />
+      <point x="394.8928571428571" y="711.0" />
+      <point x="402.5" y="711.0" />
+      <point x="161.0" y="225.0" />
+    </edge>
+    <edge source="Admin" target="Session">
+      <point x="-140.625" y="-159.0" />
+      <point x="178.94642857142856" y="925.0" />
+      <point x="142.14285714285714" y="925.0" />
+      <point x="142.14285714285714" y="711.0" />
+      <point x="80.5" y="711.0" />
+      <point x="-161.0" y="225.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="327.0" y="290.33333333333326" />
+  <SelectedNodes>
+    <node>Conference</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
